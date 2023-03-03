@@ -53,12 +53,13 @@ import json
 import time
 from dotenv import load_dotenv
 from werkzeug.wrappers import response
-from supergood.interceptor import Interceptor
-
-# Initialize 'Interceptor' here, nothing special
-intercept = Interceptor('client-id', 'client-secret', 'https://dashboard.supergood.ai')
 
 load_dotenv()
+
+import supergood
+
+supergood.Client()
+
 
 
 app = Flask(__name__)
