@@ -1,6 +1,6 @@
-# Supergood GoLang Example Code
+# Supergood Python Example Code
 
-This is a simple example of how to integrate the Supergood GoLang client on the Plaid Quickstart Server. This example is meant to be used as a reference and not as a production-ready application.
+This is a simple example of how to integrate the Supergood Python client on the Plaid Quickstart Server. This example is meant to be used as a reference and not as a production-ready application.
 
 ## Running the Example Code
 
