@@ -56,13 +56,9 @@ from werkzeug.wrappers import response
 
 load_dotenv()
 
-from supergood import Client
+from supergood import Client as SupergoodClient
 
-Client(
-    client_id=os.getenv('SUPERGOOD_CLIENT_ID'),
-    client_secret_id=os.getenv('SUPERGOOD_CLIENT_SECRET'),
-    base_url=os.getenv('SUPERGOOD_BASE_URL')
-)
+SupergoodClient()
 
 app = Flask(__name__)
 
